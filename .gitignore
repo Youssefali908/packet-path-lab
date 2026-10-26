@@ -1,0 +1,13 @@
+# Local Python environments / caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+# Local credentials (never upload these)
+.streamlit/secrets.toml
+.env
+.env.*
+# Local OS / editor files
+.DS_Store
+.vscode/
