@@ -1,0 +1,11 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: data__network_edges.csv>
+index,edge_id,source,target,cost,latency_ms,bandwidth_mbps,status,scenario
+0,A-B,A,B,4,8,100,up,baseline
+1,A-C,A,C,2,3,1000,up,baseline
+2,B-C,B,C,5,6,200,up,baseline
+3,B-D,B,D,10,9,150,up,baseline
+4,C-E,C,E,3,4,800,up,baseline
+5,D-E,D,E,4,5,500,up,baseline
+6,D-F,D,F,11,10,250,up,baseline
+7,E-F,E,F,7,6,1000,up,baseline
