@@ -4,14 +4,15 @@ An interactive Streamlit teaching application demonstrating shortest-path routin
 
 ## Deploy online with Streamlit Community Cloud
 
-1. Download `Packet_Path_Lab_Streamlit_Deploy.zip` and **extract it**. You should see `app.py` and `requirements.txt` directly inside the extracted folder.
-2. Create a repository at https://github.com/new (for example, `packet-path-lab`). A public repository is easiest to share with your professor. Do not upload your `.venv` folder or any secrets.
-3. In your new repository, choose **Add file → Upload files**. Drag in the **contents** of the extracted folder, including `data`, `tests`, `docs`, and `.streamlit`, so that **`app.py` and `requirements.txt` are at the repository root**. Commit the files. GitHub's browser upload supports dragging a folder's contents; if hidden `.streamlit` is skipped, add it separately or deploy without the optional theme config.
-4. Go to https://share.streamlit.io , sign in using GitHub, and choose **Create app → Yup, I have an app**.
-5. Select the new GitHub repository and branch `main`. Set **Main file path** to `app.py`.
-6. In **Advanced settings**, select Python **3.12** (matching local development). No secrets are required.
-7. Click **Deploy**. When the app loads, verify View 1 and test **E–F cost = 20**, **E–F link failure**, and the **A disconnected** preset.
-8. Copy the resulting `https://<your-app>.streamlit.app/` link into your IEEE report and class submission.
+The complete deployable application is already uploaded to the public GitHub repository:
+https://github.com/Youssefali908/packet-path-lab
+
+1. Open https://share.streamlit.io and sign in using your GitHub account.
+2. Choose **Create app** (or **New app**) and select the existing repository `Youssefali908/packet-path-lab`.
+3. Choose branch `main` and main file path `app.py`.
+4. Under advanced settings, select Python **3.12**. No secrets are required.
+5. Click **Deploy**, then test the network map, packet controls, E–F cost adjustment, link failure, and disconnected scenario.
+6. Add the resulting public Streamlit URL to the final IEEE report or course submission. The app is not published on Streamlit Cloud until this step is completed.
 
 Official guide: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy
 
